@@ -1,0 +1,26 @@
+FROM rocker/tidyverse:3.4.4
+
+RUN apt-get -y update && apt-get -y --no-install-recommends install \
+  vim \
+  libnlopt-dev \
+  default-jdk \
+  liblzma-dev \
+  libbz2-dev \
+  && install2.r --error \
+    --deps TRUE \
+    RODBC \
+    RODBCext \
+    RODBCDBI \
+    forecast \
+    MAPA \
+    tsintermittent \
+    hts \
+    foreach \
+    doSNOW \
+    mailR \
+    openxlsx \
+    miniUI \
+    odbc
+
+## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well.
+##        Vim is installed for convience in working at the terminal
