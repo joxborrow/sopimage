@@ -1,0 +1,68 @@
+FROM rocker/geospatial:3.6.2
+
+RUN apt-get -y update && apt-get -y --no-install-recommends install \
+  vim \
+  libnlopt-dev \
+  libpoppler-cpp-dev \
+  libtesseract-dev \
+  libleptonica-dev \
+  tesseract-ocr-eng \
+  default-jdk \
+  liblzma-dev \
+  libbz2-dev \
+  libglu1-mesa-dev \
+  libudunits2-dev \
+  libavfilter-dev \
+  cargo \
+  && install2.r --error \
+    --deps TRUE \
+## Data packages
+    assertr \
+    pivottabler \
+    basictabler \
+    pdftools \
+## Database Packages  
+    RSQLite \
+    RPostgreSQL \ 
+    RODBC \
+    RODBCDBI \
+## Forecast Packages
+    fable \
+    tsibble \
+    feasts \
+    forecast \
+    MAPA \
+    tsintermittent \
+    hts \
+## Parallel Processing
+    foreach \
+    doSNOW \
+## Network Analysis
+    igraph \
+    DiagrammeR \
+## Miscellaneous
+   blastula \
+   BiocManager \
+   openxlsx \
+## Additional Geospation
+   sf \
+## HTML related
+   shiny \
+   shinythemes \
+   shinyWidgets \
+   flexdashboard \
+   ggiraph \
+   plotly \
+##   autoplotly \
+## ggplot related
+   patchwork \
+   ggthemes \
+   tweenr \
+   gganimate \
+   ggalt \
+   ggrepel \
+   ggraph \
+   ggfortify
+
+## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well.
+##        Vim is installed for convience in working at the terminal
