@@ -26,7 +26,7 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     RPostgreSQL \ 
     RODBC \
     RODBCDBI \
-## Forecast Packages
+## Forecast & Time Series Packages
     fable \
     tsibble \
     feasts \
@@ -34,6 +34,8 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     MAPA \
     tsintermittent \
     hts \
+    seasonal \
+    seasonlview \
 ## Parallel Processing
     foreach \
     doSNOW \
