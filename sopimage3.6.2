@@ -46,7 +46,6 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
 ## Miscellaneous
    blastula \
    BiocManager \
-   openxlsx \
    magick \
    rsvg \
 ## Additional Geospation
@@ -58,7 +57,6 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
    flexdashboard \
    ggiraph \
    plotly \
-##   autoplotly \
 ## ggplot related
    patchwork \
    ggthemes \
@@ -67,7 +65,13 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
    ggalt \
    ggrepel \
    ggraph \
-   ggfortify
+   ggfortify \
+## MS Office Related
+   flextable \
+   officer \
+   rvg \
+   mschart \
+   openxlsx
 
 ## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well.
 ##        Vim is installed for convience in working at the terminal
