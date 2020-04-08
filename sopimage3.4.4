@@ -22,8 +22,11 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     miniUI \
     odbc \
     rpivotTable \
+    flexdashboard \
+    formattable \
     RCurl \
-    miniUI
+    miniUI \
+    openxlsx
 ######################
 ## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well.
 ##        Vim is installed for convience in working at the terminal
