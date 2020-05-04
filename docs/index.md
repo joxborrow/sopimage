@@ -20,4 +20,8 @@ dependencies).
 
 ### sopimage3.6.2
 
-You can also embed plots, for example:
+### sopimage3.6.3
+
+| Group | Package |
+| ----- | ------- |
+| g1    | p1      |
