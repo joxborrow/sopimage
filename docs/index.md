@@ -22,6 +22,52 @@ dependencies).
 
 ### sopimage3.6.3
 
-| Group | Package |
-| ----- | ------- |
-| g1    | p1      |
+| Group                  | Package        |
+| ---------------------- | -------------- |
+| Data                   | assertr        |
+| Data                   | pivottabler    |
+| Data                   | basictabler    |
+| Data                   | pdftools       |
+| Data                   | inspectdf      |
+| Data                   | naniar         |
+| Database               | RSQLite        |
+| Database               | RPostgreSQL    |
+| Database               | RODBC          |
+| Database               | RODBCDBI       |
+| Forecast & Time Series | fable          |
+| Forecast & Time Series | tsibble        |
+| Forecast & Time Series | feasts         |
+| Forecast & Time Series | forecast       |
+| Forecast & Time Series | MAPA           |
+| Forecast & Time Series | tsintermittent |
+| Forecast & Time Series | hts            |
+| Forecast & Time Series | seasonal       |
+| Forecast & Time Series | tidyquant      |
+| Parallel Processing    | foreach        |
+| Parallel Processing    | doSNOW         |
+| Networks & Graphs      | igraph         |
+| Networks & Graphs      | DiagrammeR     |
+| Miscellaneaous         | blastula       |
+| Miscellaneaous         | BiocManager    |
+| Miscellaneaous         | magick         |
+| Miscellaneaous         | rsvg           |
+| HTML                   | shiny          |
+| HTML                   | shinythemes    |
+| HTML                   | shinyWidgets   |
+| HTML                   | flexdashboard  |
+| HTML                   | ggiraph        |
+| HTML                   | plotly         |
+| HTML                   | rpivotTable    |
+| ggplot                 | patchwork      |
+| ggplot                 | ggthemes       |
+| ggplot                 | tweenr         |
+| ggplot                 | gganimate      |
+| ggplot                 | ggalt          |
+| ggplot                 | ggrepel        |
+| ggplot                 | ggraph         |
+| ggplot                 | ggfortify      |
+| MS Office              | flextable      |
+| MS Office              | officer        |
+| MS Office              | rvg            |
+| MS Office              | mschart        |
+| MS Office              | openxlsx       |
