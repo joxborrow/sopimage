@@ -9,15 +9,7 @@ addtional useful R packages and their dependencies. These files are
 build to images which are in turn housed on dockerhub.com. They can be
 pulled using the following command:
 
-`docker pull joxborrow/<image name>`
+`docker pull joxborrow/sopimage:<tag>`
 
-### sopimage3.4.4
-
-This is the first image and is based on the rocker/tidyverse image. It
-is best characterized as a collection of the tidyverse and other useful
-packages. It currently includes the following extra packages (plus their
-dependencies).
-
-### sopimage3.6.2
-
-You can also embed plots, for example:
+For more in depth information about the individual images available, please
+see the [website](http://joxborrow.github.io/sopimage).
