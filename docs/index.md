@@ -24,8 +24,6 @@ dependencies).
 
 ### 3.6.3
 
-<center>
-
 | Group                  | Package        |
 | ---------------------- | -------------- |
 | Data                   | assertr        |
@@ -76,5 +74,3 @@ dependencies).
 | MS Office              | rvg            |
 | MS Office              | mschart        |
 | MS Office              | openxlsx       |
-
-</center>
