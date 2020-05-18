@@ -70,6 +70,7 @@ dependencies).
 | ggplot                 | ggrepel        |
 | ggplot                 | ggraph         |
 | ggplot                 | ggfortify      |
+| ggplot                 | ggtext         |
 | MS Office              | flextable      |
 | MS Office              | officer        |
 | MS Office              | rvg            |
