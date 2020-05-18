@@ -24,6 +24,7 @@ This is the first image and is based on the rocker/tidyverse image. It is best c
 ### 3.6.3
 
 <center>
+
 | Group | Package |
 |-------|---------|
 |Data|assertr |  
@@ -68,10 +69,11 @@ This is the first image and is based on the rocker/tidyverse image. It is best c
 |ggplot|ggrepel|
 |ggplot|ggraph|
 |ggplot|ggfortify|
-|ggplot|ggtext |
+|ggplot|ggtext|
 |MS Office|flextable|
 |MS Office|officer|
 |MS Office|rvg|
 |MS Office|mschart|
 |MS Office|openxlsx|
+
 </center>
