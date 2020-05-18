@@ -31,6 +31,8 @@ This is the first image and is based on the rocker/tidyverse image. It is best c
 |Data|pdftools|
 |Data|inspectdf|
 |Data|naniar|
+|Data|simputation|
+|Data|future.apply|
 |Database|RSQLite|
 |Database|RPostgreSQL|
 |Database|RODBC|
