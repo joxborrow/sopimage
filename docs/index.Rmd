@@ -33,6 +33,8 @@ This is the first image and is based on the rocker/tidyverse image. It is best c
 |Data|naniar|
 |Data|simputation|
 |Data|future.apply|
+|Data|httr|
+|Data|rvest|
 |Database|RSQLite|
 |Database|RPostgreSQL|
 |Database|RODBC|
@@ -69,7 +71,6 @@ This is the first image and is based on the rocker/tidyverse image. It is best c
 |ggplot|ggrepel|
 |ggplot|ggraph|
 |ggplot|ggfortify|
-|ggplot|ggtext|
 |MS Office|flextable|
 |MS Office|officer|
 |MS Office|rvg|
