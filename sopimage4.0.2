@@ -1,4 +1,4 @@
-FROM rocker/geospatial:3.6.2
+FROM rocker/geospatial:4.0.2
 
 RUN apt-get -y update && apt-get -y --no-install-recommends install \
   vim \
@@ -23,11 +23,16 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     basictabler \
     pdftools \
     inspectdf \
+    naniar \
+    simputation \
+    future.apply \
 ## Database Packages  
     RSQLite \
     RPostgreSQL \ 
     RODBC \
     RODBCDBI \
+    httr \
+    rvest \
 ## Forecast & Time Series Packages
     fable \
     tsibble \
@@ -41,6 +46,7 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
 ## Parallel Processing
     foreach \
     doSNOW \
+    furrr \
 ## Network Analysis
     igraph \
     DiagrammeR \
@@ -49,6 +55,7 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
    BiocManager \
    magick \
    rsvg \
+   tictoc \
 ## Additional Geospation
    sf \
 ## HTML related
