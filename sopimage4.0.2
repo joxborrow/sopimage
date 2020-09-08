@@ -26,6 +26,7 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     naniar \
     simputation \
     future.apply \
+    tidytable \
 ## Database Packages  
     RSQLite \
     RPostgreSQL \ 
@@ -43,44 +44,44 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     hts \
     seasonal \
     tidyquant \
-## Parallel Processing
-    foreach \
-    doSNOW \
-    furrr \
-## Network Analysis
-    igraph \
-    DiagrammeR \
-## Miscellaneous
-   blastula \
-   BiocManager \
-   magick \
-   rsvg \
-   tictoc \
-## Additional Geospation
-   sf \
-## HTML related
-   shiny \
-   shinythemes \
-   shinyWidgets \
-   flexdashboard \
-   ggiraph \
-   plotly \
-   rpivotTable \
-## ggplot related
-   patchwork \
-   ggthemes \
-   tweenr \
-   gganimate \
-   ggalt \
-   ggrepel \
-   ggraph \
-   ggfortify \
-## MS Office Related
-   flextable \
-   officer \
-   rvg \
-   mschart \
-   openxlsx
+### Parallel Processing
+#    foreach \
+#    doSNOW \
+#    furrr \
+### Network Analysis
+#    igraph \
+#    DiagrammeR \
+### Miscellaneous
+#   blastula \
+#   BiocManager \
+#   magick \
+#   rsvg \
+#   tictoc \
+### Additional Geospation
+#   sf \
+### HTML related
+#   shiny \
+#   shinythemes \
+#   shinyWidgets \
+#   flexdashboard \
+#   ggiraph \
+#   plotly \
+#   rpivotTable \
+### ggplot related
+#   patchwork \
+#   ggthemes \
+#   tweenr \
+#   gganimate \
+#   ggalt \
+#   ggrepel \
+#   ggraph \
+#   ggfortify \
+### MS Office Related
+#   flextable \
+#   officer \
+#   rvg \
+#   mschart \
+#   openxlsx
 
 ## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well.
 ##        Vim is installed for convience in working at the terminal
